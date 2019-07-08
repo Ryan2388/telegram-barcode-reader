@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+telegram = {git = "https://github.com/python-telegram-bot/python-telegram-bot"}
+sqlalchemy = "*"
+click = "*"
+coloredlogs = {git = "https://github.com/xolox/python-coloredlogs"}
+black = "*"
+pyzbar = "*"
+pillow = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
