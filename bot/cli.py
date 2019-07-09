@@ -7,8 +7,8 @@ from sqlalchemy.orm import sessionmaker, scoped_session
 from telegram.ext import Updater, dispatcher
 
 import bot
-from .callbacks import HANDLERS
-from .scheme import presets
+from bot.callbacks import HANDLERS
+from bot.model import presets
 
 
 def setup_handlers(updater: Updater):

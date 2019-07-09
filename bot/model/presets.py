@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 
-from .scheme import Base
+from bot.model import Base
 
 
 def setup_database(drop_all, db_uri):

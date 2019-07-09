@@ -1,9 +1,8 @@
 from telegram.ext import CommandHandler, MessageHandler, Filters
 
-from .start import handle_start
-from .recognize import handle_photo
+from bot.callbacks import sorry, start
 
 HANDLERS = [
-    CommandHandler("start", handle_start),
-    MessageHandler(Filters.photo, handle_photo),
+    CommandHandler("start", start.handle_start),
+    MessageHandler(Filters.all, sorry.handle_unknown),
 ]
