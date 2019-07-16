@@ -1,4 +1,4 @@
-# Telegram Barcode reader
+# Telegram Barcode reader [![Built on: Telegram Bot Template](https://img.shields.io/badge/Built%20On-Telegram%20Bot%20Template-brightgreen.svg)](https://github.com/yarfuo/telegram-bot-template)
 
 #### Usage:
 First of all, you need to set `DB_URI` environment variable:
